@@ -1,0 +1,18 @@
+c:\users\dlhaz\onedrive\documents\visual studio 2015\Projects\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\bin\Debug\NotepadAppHazeltonHW3.exe.config
+c:\users\dlhaz\onedrive\documents\visual studio 2015\Projects\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\bin\Debug\NotepadAppHazeltonHW3.exe
+c:\users\dlhaz\onedrive\documents\visual studio 2015\Projects\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\bin\Debug\NotepadAppHazeltonHW3.pdb
+c:\users\dlhaz\onedrive\documents\visual studio 2015\Projects\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.csprojResolveAssemblyReference.cache
+c:\users\dlhaz\onedrive\documents\visual studio 2015\Projects\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.Form1.resources
+c:\users\dlhaz\onedrive\documents\visual studio 2015\Projects\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.Properties.Resources.resources
+c:\users\dlhaz\onedrive\documents\visual studio 2015\Projects\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.csproj.GenerateResource.Cache
+c:\users\dlhaz\onedrive\documents\visual studio 2015\Projects\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.exe
+c:\users\dlhaz\onedrive\documents\visual studio 2015\Projects\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.pdb
+C:\Users\dlhaz\Desktop\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\bin\Debug\NotepadAppHazeltonHW3.exe.config
+C:\Users\dlhaz\Desktop\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.exe
+C:\Users\dlhaz\Desktop\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.pdb
+C:\Users\dlhaz\Desktop\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\bin\Debug\NotepadAppHazeltonHW3.exe
+C:\Users\dlhaz\Desktop\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\bin\Debug\NotepadAppHazeltonHW3.pdb
+C:\Users\dlhaz\Desktop\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.csprojResolveAssemblyReference.cache
+C:\Users\dlhaz\Desktop\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.Form1.resources
+C:\Users\dlhaz\Desktop\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.Properties.Resources.resources
+C:\Users\dlhaz\Desktop\NotepadAppHazeltonHW3\NotepadAppHazeltonHW3\obj\Debug\NotepadAppHazeltonHW3.csproj.GenerateResource.Cache

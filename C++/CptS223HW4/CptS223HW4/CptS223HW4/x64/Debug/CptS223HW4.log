@@ -1,0 +1,8 @@
+﻿  test_driver.cpp
+c:\users\dlhaz\onedrive\documents\github\danielhazeltonresumesamples\c++\cpts223hw4\cpts223hw4\cpts223hw4\test_driver.cpp(104): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\dlhaz\onedrive\documents\github\danielhazeltonresumesamples\c++\cpts223hw4\cpts223hw4\cpts223hw4\test_driver.cpp(145): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\dlhaz\onedrive\documents\github\danielhazeltonresumesamples\c++\cpts223hw4\cpts223hw4\cpts223hw4\test_driver.cpp(160): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\users\dlhaz\onedrive\documents\github\danielhazeltonresumesamples\c++\cpts223hw4\cpts223hw4\cpts223hw4\test_driver.cpp(167): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+c:\users\dlhaz\onedrive\documents\github\danielhazeltonresumesamples\c++\cpts223hw4\cpts223hw4\cpts223hw4\test_driver.cpp(174): warning C4244: '=': conversion from 'clock_t' to 'float', possible loss of data
+  CptS223HW4.vcxproj -> C:\Users\dlhaz\OneDrive\Documents\GitHub\DanielHazeltonResumeSamples\C++\CptS223HW4\CptS223HW4\x64\Debug\CptS223HW4.exe
+  CptS223HW4.vcxproj -> C:\Users\dlhaz\OneDrive\Documents\GitHub\DanielHazeltonResumeSamples\C++\CptS223HW4\CptS223HW4\x64\Debug\CptS223HW4.pdb (Full PDB)

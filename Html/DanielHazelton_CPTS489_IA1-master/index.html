@@ -1,0 +1,237 @@
+<!-- CptS 489, Spring 2020
+     Project: IA #1
+     File: index.html
+     This file defines a skeleton single page web app using pure JavaScript.
+-->
+<!-- This line is to help me --!>
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Begin HEAD section of document. Here we must use HTML comments as shown here. -->
+    <!-- Default target for all hyperlinks in this file is _top; see https://www.w3schools.com/tags/att_base_target.asp -->
+    <base target="_top"> 
+    <!-- Provide metadata on this file. Can be used by browsers, search engines, etc. -->
+    <meta charset="utf-8">
+    <!-- HTML5 method that specifies viewable part of page ('viewport'). Always use the following,
+         which sets the width of the page to the width of the device and scales page content to fit into page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import External stylesheets and libraries using 'CDN' (content delivery network) links: -->
+    <link rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">    
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <!-- Our local CSS stylesheet -->
+    <link rel="stylesheet" href = "styles/navbar.css">
+
+</head>
+ 
+<body>
+  <!-- Begin the BODY section of the document.  -->
+  <!-- Define Favicon -->
+   <!--<link rel='shortcut icon' type='image/x-icon' href="https://dl.dropboxusercontent.com/s/79q9a1xy2148unf/SpeedScore3Icon.ico" />-->
+    
+  
+  
+  <!-- Fixed menu and button content goes here to define app structure: the top
+       bar, the side menu, the bottom bar, and the floating contextual action
+       button  -->
+  <!-- The top navigation bar -->
+  <div id="navBar" class="navbar">  
+    <span class="navbarItems">
+      <button id="menuBtn" style="background-color: transparent;
+      border-color:#13294E; text-align: center">
+        <span id="menuBtnIcon" class="fas fa-bars" style="color:white;
+        font-size: 30px; cursor:pointer; text-align: center">
+        </span>
+      </button>
+      <!--<img src="http://tiny.cc/sslogo" alt="Speed Score Logo" height="38px"
+      width="38px">-->
+      <span id="topBarTitle" style="color:white; font-size: 18px">
+        Activity Feed</span>
+    </span>
+  </div>
+  
+  <!--BEGIN SIDE MENU -->
+ <div id="sideMenu" class="sidenav" >
+   <!--SIDE MENU TITLE -->
+  <div class="sidenavtitle">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/Yc3PVKb/15987-2.jpg" alt="15987-2" height='50' width='50'>
+      <span id="userID" style="font-size:14px">&nbsp;Daniel Hazelton&nbsp;&nbsp;</span>
+   </div>
+	<!--BEGIN MENU CONTENT-->
+ <div id="mainMenuContent" class="sidemenu">
+ <!--BEGIN GROUP OF MODE/ACTION BUTTONS -->
+ <!--Mode buttons show current mode Action buttons are contextual; they provide
+    easy access to most important functionality in current mode 
+  -->
+  <a id="main" class="aboutModeItem menuItem"><span class=""></span>&nbsp;Name/Photo</a>
+  <a id="schoolInfo" class="aboutModeItem menuItem"><span class=""></span>&nbsp;Schooling</a>
+  <a id="funInfo" class="aboutModeItem menuItem"><span class=""></span>&nbsp;Fun Info!</a>
+  
+  <a id="main" class="hobbiesModeItem menuItem"><span class=""></span>&nbsp;Favorite hobby</a>
+  <a id="chill" class="hobbiesModeItem menuItem"><span class=""></span>&nbsp;Chill hobbies</a>
+  <a id="outdoor" class="hobbiesModeItem menuItem"><span class=""></span>&nbsp;Outdoor activities</a>
+  
+  <a id="main" class="familyModeItem menuItem"><span class=""></span>&nbsp;Total</a>
+  <a id="parents" class="familyModeItem menuItem"><span class=""></span>&nbsp;Parents</a>
+  <a id="brother" class="familyModeItem menuItem"><span class=""></span>&nbsp;Brother</a>
+  
+  <!-- <a id=logOutBtn><span class=""></span>&nbsp;Log Out</a> -->
+   <!-- END GROUP OF MODE/ACTION BUTTONS -->
+</div>
+<!-- END MAIN MENU CONTENT -->
+</div>
+<!-- END SIDEMENU -->
+   <!-- START BOTTOM NAVBAR -->
+   <div class="bottombar" id="theBottomBar" style="z-index: 100" w3-include-html="html/bottomBar.html">
+   </div> 
+  <!-- END BOTTOM NAVBAR -->
+
+<!-- BEGIN FIXED BOTTOM BAR -->
+<div id="bottomBar" class="bottombar">
+<a id="aboutMode" class="bottomBarBtn"><span style="display:block; padding-top:3px"
+class="nonMenuItem fas fa-universal-access"></span><span style="display:block;font-size:
+small">About me</span></a>
+<a id="hobbiesMode" class="bottomBarBtn"><span style="display:block; padding-top:3px"
+class="nonMenuItem fas fa-gamepad"></span><span style="display:block;font-size:
+small">Hobbies</span></a>
+<a id="familyMode" class="bottomBarBtn">
+<span style="display:block; padding-top:3px"
+class="nonMenuItem fas fa-heart"></span>
+<span style="display:block;font-size:
+small">Family</span></a> 
+</div>
+<!-- END FIXED BOTTOM BAR-->
+
+<!-- BEGIN APP PAGE DEFINITIONS -->
+    
+  <!-- Main about page -->
+   <div id="aboutModeDiv"  class="paddedPage">
+    <h1 style="font-size:50px"; align="center">About Me</h1>
+    
+	<p style="font-size:30px"; align="center";>
+		
+		Daniel Lee Hazelton<br>
+		December 1st, 1997<br>
+		<a href="https://ibb.co/TWrqrFW"><img src="https://i.ibb.co/QDXjX1D/16011.jpg" alt="16011" border="0"></a>
+		<br>
+	</p>
+	</div>
+	<!-- Page for school info -->
+	<div id="schoolInfoDiv" class="paddedPage">
+      <h1 align="center">School Info Page</h1>
+    
+	<p style="font-size:30px"; align="center";>
+		
+		I attend:<br>
+		Washington State University<br>
+	</p>
+	</div>
+	<!-- Page  for funInfo about me -->
+   <div id="funInfoDiv"  class="paddedPage">
+      <h1 align="center">Fun Info About ME!</h1>
+      <div w3-include-html="html/underConstruction.html" > </div>
+	  <p style="font-size:30px"; align="center";>
+		
+		I have never broken a bone<br>
+		I am 6ft 4in<br>
+		I have pet a shark!<br>
+	</p>
+   </div>
+	
+	</div>
+   <!-- Main hobbies page -->
+   <div id="hobbiesModeDiv"  class="paddedPage">
+      <h1 align="center">My favorite hobby:</h1>
+      
+	  <p style="font-size:30px"; align="center";>
+		
+		Video games<br>
+		I play too much of them!<br>
+	</p>
+    </div>
+	
+	<!-- Page  for chill hobbies -->
+    <div id="chillDiv"  class="paddedPage">
+        <h1 align="center">My Chill Hobbies:</h1>
+        <div w3-include-html="html/underConstruction.html" > </div>
+		<p style="font-size:30px"; align="center";>
+		
+		Movies<br>
+		Reading<br>
+		Drawing/Modeling "on the computer not like with my body"<br>
+		Learning about animals<br>
+		
+	</p>
+     </div>
+	 
+	 <!-- Page  for outdoor hobbies -->
+    <div id="outdoorDiv"  class="paddedPage">
+        <h1 align="center">My Outdoor Hobbies:</h1>
+        <div w3-include-html="html/underConstruction.html" > </div>
+		<p style="font-size:30px"; align="center";>
+		
+		Running<br>
+		Walking<br>
+		Hiking<br>
+		Ran XC in HS<br>
+		
+	</p>
+     </div>
+
+  <!-- Page displaying my family -->
+  <div id="familyModeDiv" class="paddedPage">
+      <h1 align="center">My family members</h1>
+    
+	<p style="font-size:30px"; align="center";>
+		
+		My Dad Lee<br>
+		My Mom Nancy<br>
+		My brother Justin<br>
+		And Me!<br>
+	</p>
+  </div>
+
+  <!-- Page displaying my family -->
+  <div id="parentsDiv" class="paddedPage">
+      <h1 align="center">My Parents:</h1>
+    
+	<p style="font-size:30px"; align="center";>
+		
+		My Dad Lee<br>
+		My Mom Nancy<br>
+		Pretty cool "for parents"<br>
+	</p>
+  </div>
+
+   <!-- Page displaying my family -->
+  <div id="brotherDiv" class="paddedPage">
+      <h1 align="center">My brother:</h1>
+    
+	<p style="font-size:30px"; align="center";>
+		
+		His name is Justin<br>
+		He went to Oregon State University<br>
+	</p>
+  </div>
+
+    
+  <!-- END APP PAGE DEFINITIONS -->
+   
+ </body>
+  
+  <!-- Begin SCRIPT section of document. -->
+  
+  <!--<script src="scripts/includeHTML.js"></script>-->
+  <script src="scripts/eventHandlers.js"></script>
+  <script src="scripts/startUp.js"></script>
+  
+   
+</html>
